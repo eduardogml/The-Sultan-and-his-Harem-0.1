@@ -1,0 +1,9 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/nqtr_values/event_label.rpy", line 28: invalid syntax
+    else
+
+Ren'Py Version: Ren'Py 8.3.0.24082114
+Wed Nov 13 20:43:17 2024

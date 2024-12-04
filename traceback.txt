@@ -1,0 +1,28 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 85, in script call
+    call intro
+  File "game/story_scripts/intro.rpy", line 122, in script
+    asL_ "You spoke of ambition... of the dangers and the rewards."
+Exception: Sayer 'asL_' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 85, in script call
+    call intro
+  File "game/story_scripts/intro.rpy", line 122, in script
+    asL_ "You spoke of ambition... of the dangers and the rewards."
+  File "D:\Documentos\RenPy\renpy-8.3.0-sdk\renpy\ast.py", line 2572, in execute
+    Say.execute(self)
+  File "D:\Documentos\RenPy\renpy-8.3.0-sdk\renpy\ast.py", line 575, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "D:\Documentos\RenPy\renpy-8.3.0-sdk\renpy\ast.py", line 464, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'asL_' is not defined.
+
+Windows-10-10.0.22000 AMD64
+Ren'Py 8.3.0.24082114
+The Sultan and his Harem 0.1
+Fri Nov 29 15:16:41 2024
